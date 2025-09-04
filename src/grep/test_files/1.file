@@ -1,0 +1,33 @@
+
+	cat - concatenate files and print on the standard output
+
+	Concatenate FILE(s) to standard output.
+
+	-b, out --number-nonblank
+		out number nonempty output lines, overnumrides -n
+
+
+	-n, --number
+		number all output lines
+
+	-s, --squeeze-blank
+		suppress repeated empty output lines
+
+	--version
+		output version information and exit
+
+
+
+
+EXAMPLES		top
+	cat f - g
+		Output f's contents, then standard input, then g's
+		contents.
+
+0	cat    Copy standard input to standard output.
+AUTHOR         top
+
+	This page is part of the coreutils (basic file, shell and text
+	manipulation utilities) project.  Information about the project
+	can be found at ⟨http://www.gnu.org/software/coreutils/⟩.  If you
+	have a bug report for this manual page, see
